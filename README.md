@@ -1,46 +1,50 @@
 ﻿# Wallpaper Vibe WinXP
 
-Интерактивные HTML-обои с атмосферой Windows XP: глубокое синее небо, мягкие объёмные облака и знакомые иконки, парящие на разном расстоянии. Перемещайтесь по бесконечному облачному пространству, настраивайте его под себя и рассыпайте иконки на пиксели одним кликом.
+**English** | [Русский](README.ru.md)
 
-![Превью Wallpaper Vibe WinXP — облака и парящие иконки Windows XP](preview.gif)
+Interactive HTML wallpaper inspired by Windows XP: deep blue skies, soft volumetric clouds, and familiar icons floating at different depths. Explore an endless cloudscape, customize its appearance, and make icons dissolve into pixels with a click.
 
-## Возможности
+![Wallpaper Vibe WinXP preview — clouds and floating Windows XP icons](preview.gif)
 
-- Бесконечное полотно с бесшовным появлением новых участков.
-- Четыре слоя глубины: размер и параллакс создают ощущение пространства.
-- Мягкое перемещение с инерцией.
-- Пиксельный распад иконок при клике.
-- Настройка количества и среднего размера иконок, просветов и плотности облаков.
-- Сохранение настроек между запусками.
-- Полностью локальная работа без подключения к интернету.
+## Features
 
-## Запуск
+- An infinite canvas with seamless generation of new areas.
+- Four depth layers with varying icon sizes and parallax.
+- Smooth dragging with inertia.
+- Pixel disintegration when you click an icon.
+- Adjustable icon count, average icon size, cloud gaps, and cloud density.
+- Settings saved between sessions.
+- Fully local operation with no internet connection required.
 
-Откройте **index.html** в современном браузере. Для использования в качестве обоев добавьте этот файл в приложение с поддержкой HTML-обоев, например Lively Wallpaper или Wallpaper Engine.
+## Getting started
 
-Храните **index.html**, **icons.js** и папку **assets** вместе.
+Open **index.html** in a modern browser. To use it as your desktop wallpaper, import the file into an application that supports HTML wallpapers, such as Lively Wallpaper or Wallpaper Engine.
 
-## Управление
+Keep **index.html**, **icons.js**, and the **assets** folder together.
 
-| Действие | Управление |
+## Controls
+
+| Action | Control |
 | --- | --- |
-| Перемещение по облакам | Зажмите левую кнопку мыши и перетаскивайте полотно |
-| Пиксельное исчезновение иконки | Короткий клик по иконке |
-| Настройки | Панель в правом верхнем углу |
-| Сворачивание панели | Нажмите «Настройки обоев» |
-| Возврат исходных настроек и иконок | Нажмите «Сбросить» |
+| Explore the cloudscape | Hold the left mouse button and drag |
+| Make an icon dissolve into pixels | Click an icon without dragging |
+| Adjust settings | Use the panel in the top-right corner |
+| Collapse the panel | Click its title, «Настройки обоев» (Wallpaper settings) |
+| Restore default settings and icons | Click «Сбросить» (Reset) |
 
-## Настройки
+The wallpaper's settings panel currently uses Russian labels.
 
-| Параметр | Диапазон | Что меняет |
+## Settings
+
+| Setting | Range | Effect |
 | --- | --- | --- |
-| Количество иконок | 0–1000% | Плотность иконок относительно исходного количества |
-| Средний размер иконок | 25–300% | Масштаб иконок с сохранением разницы между слоями глубины |
-| Просветы в облаках | 0–100% | Количество открытого синего неба |
-| Плотность облаков | 0–200% | Насколько лёгкими или густыми выглядят облака |
+| Icon count | 0–1000% | Adjusts icon density relative to the default count |
+| Average icon size | 25–300% | Scales icons while preserving size differences between depth layers |
+| Cloud gaps | 0–100% | Reveals more of the blue sky |
+| Cloud density | 0–200% | Makes clouds appear lighter or thicker |
 
-## Лицензия
+## License
 
-Код распространяется по [лицензии MIT](LICENSE).
+The code is available under the [MIT License](LICENSE).
 
-Сторонние иконки в **assets** сохраняют права и лицензии их правообладателей. MIT-лицензия проекта не распространяется на эти изображения.
+Third-party icons in **assets** remain subject to their respective owners' rights and licenses. The project's MIT License does not cover these images.
